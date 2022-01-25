@@ -10,6 +10,7 @@ ul{
 }
 a{
     text-decoration: none;
+    color: #337fe2;
 }
 .d-i_b{
     display: inline-block;
@@ -18,12 +19,31 @@ a{
     width: 55%;
     margin: auto;
 }
+.special_part{
+    margin-left: 20px;
+}
 
 /* HEADER */
 header{
     padding: 15px 15px 0 15px;
     border-bottom: 1px solid #cbcbcb;
     font-family: 'Product Sans',Arial,sans-serif;
+}
+.header_top{
+    display: flex;
+    justify-content: space-between;
+}
+.icon_container{
+    color: #5f6368;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_container:hover {
+    background-color: rgb(110 27 40 / 8%);
 }
 .google_logo{
     width: 75px;
@@ -69,10 +89,25 @@ main{
     font-size: 22px;
     line-height: 32px;
 }
+.subtitle{
+    color: #3c4043;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+    padding: 52px 0 0 0;
+}
 .faq_answer{
     font-size: 14px;
     color: rgba(0,0,0,0.87);
     font-family: 'Roboto' ,arial,sans-serif;
     line-height: 24px;
     padding-top: 20px;
+}
+
+/* FOOTER */
+.footer_link{
+    font-size: 11px;
+    color: #3c4043;
+    margin: 10px;
+    font-family: 'Roboto' ,arial,sans-serif;
 }
