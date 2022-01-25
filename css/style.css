@@ -11,5 +11,68 @@ ul{
 a{
     text-decoration: none;
 }
+.d-i_b{
+    display: inline-block;
+}
+.container{
+    width: 55%;
+    margin: auto;
+}
 
-/* Header */
+/* HEADER */
+header{
+    padding: 15px 15px 0 15px;
+    border-bottom: 1px solid #cbcbcb;
+    font-family: 'Product Sans',Arial,sans-serif;
+}
+.google_logo{
+    width: 75px;
+    vertical-align: middle;
+}
+.header_title{
+    vertical-align: middle;
+    color: #5f6368;
+    font-size: 21px;
+}
+/* Header nav */
+.header_nav{
+    margin-top: 20px;
+}
+.header_nav li{
+    margin-right: 30px;
+    height: 30px;
+}
+.header_nav li a{
+    color: #5f6368;
+    font-size: 15px;
+    font-weight: 600;
+    height: 100%;
+}
+.header_nav li a.active{
+    color: #3367d6;
+    border-bottom: 3px solid #3367d6;
+}
+
+
+/* MAIN */
+main{
+    padding:50px 0;
+    font-family: 'Google Sans',sans-serif;
+}
+.single_faq{
+    margin-top: 60px;
+}
+.faq_question{
+    color: #3c4043;
+    font-family: 'Google Sans',sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+}
+.faq_answer{
+    font-size: 14px;
+    color: rgba(0,0,0,0.87);
+    font-family: 'Roboto' ,arial,sans-serif;
+    line-height: 24px;
+    padding-top: 20px;
+}
